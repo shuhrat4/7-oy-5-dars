@@ -1,11 +1,15 @@
-import { useState } from 'react'
+
 import './App.css'
+import Navbar from './components/Navbar'
+import CustomRoutes from './routes'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-  <h1>salom</h1>
+    <>
+      <Navbar/>
+      <CustomRoutes/>
+    </>
   )
 }
 
